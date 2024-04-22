@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dash-study"
+version = "0.1.0"
+description = ""
+authors = ["jrsantos1 <jhonatanjont@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dash = "^2.16.1"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
